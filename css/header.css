@@ -1,0 +1,61 @@
+.header {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0891B2;
+  transform: skewY(-5deg);
+  margin-top: -6rem;
+  height: 80vh;
+}
+
+.header .container {
+  background-color: white;
+  position: relative;
+}
+
+.hero-img img{
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.hero-img {
+  position: relative;
+}
+
+.hero-img h1 {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin: 1rem;
+}
+
+.header p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.hero-menu ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.hero-menu i{
+  font-size: 2rem;
+  color: #0891B2;
+}
