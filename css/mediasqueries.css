@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .header {
-    padding: 10rem 0;
+    padding: 7rem 0;
   }
 
   .header .container {
@@ -34,6 +34,29 @@
   .hero-menu {
     display: none;
   }
+
+  .contact {
+    padding: 2rem 0;
+  }
+
+  .contact .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-text {
+    flex-basis: 50%;
+  }
+
+  .contact-img {
+    flex-basis: 50%;
+  }
+  .contact-img img {
+    transform: initial;
+  }
+  .contact-text ul {
+    justify-content: flex-start;
+  }
 }
 @media screen and (min-width: 1024px) {
   .header {
@@ -64,6 +87,9 @@
 
   .hero-menu ul {
     justify-content: flex-end;
+  }
+  .contact-text {
+    flex-basis: 40%;
   }
 }
 @media screen and (min-width: 1280px) {
